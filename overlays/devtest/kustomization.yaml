@@ -2,8 +2,8 @@ resources:
   - ../../base
 
 images:
-  - name: ghcr.io/byang17/team-a-app
-    newTag: 0.0.1
+  - name: nginx
+    newTag: nginx:stable-alpine-slim
 
 replicas:
   - name: team-a-app
