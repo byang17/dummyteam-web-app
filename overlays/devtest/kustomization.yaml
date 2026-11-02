@@ -3,7 +3,7 @@ resources:
 
 images:
   - name: nginx
-    newTag: nginx:stable-alpine-slim
+    newTag: stable-alpine-slim
 
 replicas:
   - name: team-a-app
