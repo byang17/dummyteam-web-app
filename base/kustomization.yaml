@@ -1,0 +1,4 @@
+resources:
+  - deploy-team-a-app.yaml
+  - ns-team-a-app.yaml
+  - svc-team-a-app.yaml

@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: team-a-app
+  namespace: team-a-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: team-a-app
+  template:
+    metadata:
+      labels:
+        app: team-a-app
+    spec:
+      containers:
+      - name: team-a-app
+        image: ghcr.io/byang17/team-a-app:feature
+        ports:
+        - containerPort: 80

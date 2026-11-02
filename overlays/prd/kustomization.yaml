@@ -1,0 +1,12 @@
+resources:
+  - ../../base
+
+images:
+  - name: ghcr.io/byang17/team-a-app
+    newTag: 0.0.2
+
+replicas:
+  - name: team-a-app
+    count: 3
+
+namespace: team-a-app-prd
