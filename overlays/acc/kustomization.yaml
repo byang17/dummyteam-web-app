@@ -1,0 +1,12 @@
+resources:
+  - ../../base
+
+images:
+  - name: nginx
+    newTag: stable-alpine-slim
+
+replicas:
+  - name: team-a-app
+    count: 1
+
+namespace: team-a-app-dev
