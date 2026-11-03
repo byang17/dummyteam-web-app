@@ -9,4 +9,4 @@ replicas:
   - name: team-a-app
     count: 1
 
-namespace: team-a-app-dev
+namespace: web-app
